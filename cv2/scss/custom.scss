@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Telugu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#uvod {
+    min-height: 500px;
+    background-image: url("../img/bazen.jpg");
+    background-position: center;
+    h1 {
+        color:#fff5e9;
+        font-family: 'Open Sans', sans-serif;
+        font-size:4rem;
+        text-shadow: 1px 1px black;
+    }
+    h2 {
+        color:#fff5e9;
+        font-family: 'Tiro Telugu', serif;
+        font-size:2rem;
+        text-shadow: 1px 1px black;
+    }
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.5rem;
+}
+
+#history1 {
+    font-family: 'Tiro Telugu', serif;
+    font-size:0.5rem;
+    background-color: #fff5e9;
+    h2 {
+        font-size:2rem;
+    }
+}
+
+#history2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.5rem;
+    background-color: #e2cbac;
+    h2 {
+        font-size:2rem;
+    }
+}
+
+#historyimg {
+    background-color: #e2cbac;
+    background: url("../img/history.jpg");
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    #uvod h2 {
+        font-size:1.5rem;
+    }
+}
+#reservation {
+    background-color:rgba($color: #000000, $alpha: 0.5);
+    padding-top:10px;
+    h6 {
+        font-family: 'Tiro Telugu', serif;
+        font-size:1.5rem;
+        margin-top: 5px;
+    }
+    label {
+        font-family: 'Tiro Telugu', serif;
+        font-size:0.9rem;
+    }
+}
+
+#galerie {
+    background-color: #fff5e9;
+    opacity: 0.8;
+    background: repeating-linear-gradient( -45deg, #e2cbac, #e2cbac 4.5px, #fff5e9 4.5px, #fff5e9 22.5px );
+    p,h5 {
+        background-color:rgba($color: #000000, $alpha: 0.5);
+    }
+}
