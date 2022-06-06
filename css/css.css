@@ -7885,9 +7885,8 @@ body {
   width: 180px;
   height: 180px;
   object-fit: cover;
-  object-position: 20% 50%;
-  border-radius: 100px;
-  filter: grayscale(100%); }
+  object-position: 0% 50%;
+  border-radius: 100px; }
 
 #jmeno {
   font-size: 3rem;
@@ -7912,6 +7911,8 @@ body {
     margin-bottom: 40px; }
   .kontLight p {
     font-size: 1.3rem; }
+  .kontLight span {
+    color: #212529; }
 
 .kontMedium {
   background-color: #393d41;
@@ -7939,6 +7940,8 @@ body {
     text-transform: uppercase; }
   .kontDark p {
     font-size: 1.3rem; }
+  .kontDark span {
+    color: #e4e4e4; }
 
 @media screen and (min-width: 992px) {
   .kontDark h3, .kontDark p, .kontDark form, .kontLight h3, .kontLight p, .kontLight form {
@@ -7973,8 +7976,7 @@ body {
     height: 25px;
     float: left; }
   .languages span {
-    margin-left: 20px;
-    color: #e4e4e4; }
+    margin-left: 20px; }
 
 .languages:hover {
   color: tomato;
@@ -8028,5 +8030,8 @@ body {
   object-position: 0% 0%;
   margin-bottom: 10px;
   border-radius: 3px; }
+
+.footer {
+  font-size: 8pt; }
 
 /*# sourceMappingURL=css.css.map */

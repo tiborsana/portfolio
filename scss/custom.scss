@@ -72,9 +72,8 @@ body {
     width:180px;
     height:180px;
     object-fit: cover;
-    object-position: 20% 50%;
+    object-position: 0% 50%;
     border-radius: 100px;
-    filter: grayscale(100%);
 }
 
 #jmeno {
@@ -103,6 +102,9 @@ body {
     }
     p {
         font-size: 1.3rem;
+    }
+    span {
+        color:#212529;
     }
 }
 
@@ -137,6 +139,9 @@ body {
     }
     p {
         font-size: 1.3rem;
+    }
+    span {
+        color:#e4e4e4;
     }
 }
 
@@ -184,7 +189,6 @@ body {
     }
     span {
         margin-left:20px;
-        color:#e4e4e4;
     }
     transition: 250ms ease-in-out;
 }
@@ -255,4 +259,8 @@ body {
     object-position: 0% 0%;
     margin-bottom:10px;
     border-radius: 3px;
+}
+
+.footer {
+    font-size:8pt;
 }
